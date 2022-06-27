@@ -84,7 +84,7 @@ console.log(chalk.green(`\rTime : [ ${moment().format('HH:mm:ss')} ] ${chalk.blu
 ${chalk.red(` Status : Succes✓`)}\n`));
 await sleep(1000);
     } else if (result == 'BANNED') {
-      console.log(chalk.bgRed(`has your account been banned?`));
+      console.log(chalk.bgRed(`Maap nih Akun mu di ban kontol?`));
      break;
     }
   }
