@@ -10,12 +10,12 @@ function sleep(ms) {
 
 (async () => {
 	console.clear()
- CFonts.say(`Zexxy`, {
+ CFonts.say(`Lana`, {
             font: '3D',
             align: 'left',
             gradient: ['red', 'magenta']
         })
-        await sleep(3000);
+        await sleep(0.5);
         console.clear()
         console.log(`${chalk.yellow(`Since Script 2022 - 5 - 21`)}`)
 console.log(`${chalk.white(`
@@ -64,25 +64,25 @@ console.clear()
 
 console.log(chalk.white(`\rTime : [ ${moment().format('HH:mm:ss')} ] ${chalk.red(`!`)}${chalk.white(`User : ${username}`)} | ${chalk.red(`!`)}${chalk.white(`Trophy : ${trophy}`)} | ${chalk.red(`!`)}${chalk.white(`Crown : ${crown}`)}
 ${chalk.red(` Status : Succes✓`)}\n`));
-await sleep(1000);
+await sleep(0.5);
 console.log(chalk.white(`\rTime : [ ${moment().format('HH:mm:ss')} ] ${chalk.red(`!`)}${chalk.white(`User : ${username}`)} | ${chalk.red(`!`)}${chalk.white(`Trophy : ${trophy}`)} | ${chalk.red(`!`)}${chalk.white(`Crown : ${crown}`)}
 ${chalk.red(` Status : Succes✓`)}\n`));
-await sleep(1000);
+await sleep(0.5);
 console.log(chalk.white(`\rTime : [ ${moment().format('HH:mm:ss')} ] ${chalk.red(`!`)}${chalk.white(`User : ${username}`)} | ${chalk.red(`!`)}${chalk.white(`Trophy : ${trophy}`)} | ${chalk.red(`!`)}${chalk.white(`Crown : ${crown}`)}
 ${chalk.red(` Status : Succes✓`)}\n`));
-await sleep(1000);
+await sleep(0.5);
 console.log(chalk.green(`\rTime : [ ${moment().format('HH:mm:ss')} ] ${chalk.green(`!`)}${chalk.blue(`User : ${username}`)} | ${chalk.red(`!`)}${chalk.green(`Trophy : ${trophy}`)} | ${chalk.red(`!`)}${chalk.cyan(`Crown : ${crown}`)}
 ${chalk.red(` Status : Succes✓`)}\n`));
-await sleep(1000);
+await sleep(0.5);
 console.log(chalk.white(`\rTime : [ ${moment().format('HH:mm:ss')} ] ${chalk.red(`!`)}${chalk.green(`User : ${username}`)} | ${chalk.red(`!`)}${chalk.red(`Trophy : ${trophy}`)} | ${chalk.red(`!`)}${chalk.green(`Crown : ${crown}`)}
 ${chalk.red(` Status : Succes✓`)}\n`));
-await sleep(1000);
+await sleep(0.5);
 console.log(chalk.green(`\rTime : [ ${moment().format('HH:mm:ss')} ] ${chalk.blue(`!`)}${chalk.blue(`User : ${username}`)} | ${chalk.red(`!`)}${chalk.green(`Trophy : ${trophy}`)} | ${chalk.blue(`!`)}${chalk.white(`Crown : ${crown}`)}
 ${chalk.red(` Status : Succes✓`)}\n`));
-await sleep(1000);
+await sleep(0.5);
 console.log(chalk.green(`\rTime : [ ${moment().format('HH:mm:ss')} ] ${chalk.blue(`!`)}${chalk.cyan(`User : ${username}`)} | ${chalk.red(`!`)}${chalk.cyan(`Trophy : ${trophy}`)} | ${chalk.green(`!`)}${chalk.blue(`Crown : ${crown}`)}
 ${chalk.red(` Status : Succes✓`)}\n`));
-await sleep(1000);
+await sleep(0.5);
     } else if (result == 'BANNED') {
       console.log(chalk.bgRed(`Maap nih Akun mu di ban kontol?`));
      break;
